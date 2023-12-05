@@ -6,7 +6,7 @@ import cookieParser from 'cookie-parser';
 import compression from 'compression';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import { createUser, deleteUserById, getUserByPhone, updateUserById } from './db/users';
+import { createUser, deleteUserById, getUserByPhone, updateUserById } from './models/users';
 
 dotenv.config();
 
