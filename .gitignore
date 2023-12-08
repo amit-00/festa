@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /user-service/node_modules
+/event-service/node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -29,6 +30,7 @@ yarn-error.log*
 # local env files
 .env*.local
 /user-service/.env
+/event-service/.env
 
 # vercel
 .vercel
